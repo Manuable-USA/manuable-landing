@@ -20,58 +20,9 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="landing.css">
 
-  <!-- Meta Pixel Code -->
-  <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
-        n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-      };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.defer = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1925225321260387');
-    fbq('track', 'PageView');
-  </script>
-  <!-- End Meta Pixel Code -->
-
-  <!-- TikTok Pixel Code Start -->
-    <script>
-      !function (w, d, t) {
-        w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
-      var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
-      ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-        ttq.load('CTCVCSJC77U38DUS9C3G');
-        ttq.page();
-      }(window, document, 'ttq');
-    </script>
-  <!-- TikTok Pixel Code End -->
-
   <!-- Google Tag Manager -->
-  <script defer>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.defer = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-5ZLRXCKS');
-  </script>
-
-  <!-- Tracker Metricool -->
-  <script>
-    function loadScript(a) {
-      var b = document.getElementsByTagName("head")[0],
-      c = document.createElement("script"); c.type = "text/javascript",
-        c.src = "https://tracker.metricool.com/resources/be.js",
-        c.onreadystatechange = a, c.onload = a, b.appendChild(c);
-    }
-    loadScript(function () { beTracker.t({ hash: "70803b00d4c847bcc4dd077511013c1b" }); });
-  </script>
+   <script defer>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-5DFG7989');</script>
+   <!-- End Google Tag Manager -->
 
   <script>
     document.addEventListener("DOMContentLoaded", () => {
@@ -105,21 +56,10 @@
       moveSwaper();
     });
   </script>
-
-  <!-- Hotjar Tracking Code for https://manuable.com/ -->
-  <script>
-    (function (h, o, t, j, a, r) {
-      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-      h._hjSettings = { hjid: 5158399, hjsv: 6 };
-      a = o.getElementsByTagName("head")[0];
-      r = o.createElement("script"); r.async = 1;
-      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-      a.appendChild(r);
-    })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-  </script>
 </head>
 
 <body class="position position-relative bg-white">
+  <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DFG7989" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
   <main class="position-relative">
     <header class="navbar navbar-fixed-top navbar-expand-lg py-2 card card-shadow mx-4 mt-3">
       <div class="container-fluid col-12 fs-4 py-2 card-body">
@@ -943,12 +883,6 @@
       });
     });
   </script>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZLRXCKS" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- Meta tag Facebook -->
-  <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1925225321260387&ev=PageView&noscript=1" /></noscript>
 </body>
 
 </html>
